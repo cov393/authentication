@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Authentication.MyDashboardPage"
+             Title="My Dashboard Page">
+    <StackLayout VerticalOptions="CenterAndExpand" Orientation="Vertical">
+        <Label x:Name="MyUsername" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+        <Button x:Name="Loguot" Text="Logout" BackgroundColor="Black" TextColor="White" Clicked="Loguot_Clicked"/>
+    </StackLayout>
+</ContentPage >

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Authentication.MainPage"
+             Title="Main Page">
+
+    <StackLayout Margin="20" VerticalOptions="CenterAndExpand" Spacing="20" Orientation="Vertical">
+        <Entry Placeholder="User New Email" x:Name="UserNewEmail"/>
+        <Entry Placeholder="User New Password" x:Name="UserNewPassword"/>
+        <Button BackgroundColor="Black" TextColor="White" Text="Signup" Clicked="SignUpButton_Clicked" x:Name="signupbutton"/>
+        <BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" BackgroundColor="Gray"/>
+        <Entry Placeholder="User Email" x:Name="UserLoginEmail"/>
+        <Entry Placeholder="User Password" x:Name="UserLoginPassword"/>
+        <Button BackgroundColor="Black" Clicked="LoginButton_Clicked" TextColor="White" Text="Login" x:Name="loginbutton"/>
+    </StackLayout>
+
+</ContentPage>
